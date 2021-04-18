@@ -1,0 +1,30 @@
+Git learning
+
+Some basic git commands to start with:
+		git version- to know the version of git installed in yr computer
+		git config --global user.name " "  -to set the username
+		git config --global user.email " " -to set the email
+		git config --global --list         -to list the global settings done
+		git clone  "Http URL for Github"  -to clone the github project( remote repository) to local machine you are working(local repository)
+		git status -to check the status of our local working directory compared to the already git local repository
+		git add <filenme> -to add the untracked file into the git staging area
+		git commit -m "comment for commit" -to commit your changes into your local repository
+		git push origin master  -to push your changes into the github remote repository
+		
+Integrating Notepad++ with Git
+		set the notepad++ path env variable and type the notepad++ command in the bash terimal to check the notepad++ is launched
+		notepad++ .bash_profile -to create a new file to set the alias for notepad++
+		type alias npp='notepad++.exe -multiInst -nosession'
+		Now close the notepad++ and bash terminal
+		Again open the git bash terminla and type the alias command npp to see the notepad++ getting launched
+		To set the core editor for git as notepad++ type the command git config --global core.editor "notepad++.exe -multiInst -nosession"
+		Now type the command git config --global -e to edit the global config using notepad++
+
+some basic linux commands:
+		cd <directoryname> -to change the directory
+		ls -to list all the files and folders in  the pwd
+		rm -rf <folder name> to delete the folder
+Git basic commands:
+		git init -to start a fresh project
+		
+		
