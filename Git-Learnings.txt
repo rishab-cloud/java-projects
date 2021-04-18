@@ -26,5 +26,6 @@ some basic linux commands:
 		rm -rf <folder name> to delete the folder
 Git basic commands:
 		git init -to start a fresh project
+		git pull origin master/main -to pull or update the working directory against the remote repository
 		
 		
