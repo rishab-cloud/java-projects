@@ -23,9 +23,11 @@ Integrating Notepad++ with Git
 some basic linux commands:
 		cd <directoryname> -to change the directory
 		ls -to list all the files and folders in  the pwd
+		ls -al to list all the files and also the .git folder
 		rm -rf <folder name> to delete the folder
 Git basic commands:
 		git init -to start a fresh project
 		git pull origin master/main -to pull or update the working directory against the remote repository
-		
-		
+		Commands for Tracked files:
+				git ls-files to see all the files that are being tracked by the git	
+				git commit -am to add and commit the modified file at once(in single command)
