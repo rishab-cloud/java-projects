@@ -37,4 +37,7 @@ Git basic commands:
 				and also the changes that need to be added to the staging area
 		Recursive adding:
 				git add . this will add all the files recirsively into the staging area 
+		Backout Changes:
+				git reset HEAD <filename> to remove the modified file from the git staging area
+				git restore <filename> to remove the changes made in the file(revert back the file to the last commited version)
 				
