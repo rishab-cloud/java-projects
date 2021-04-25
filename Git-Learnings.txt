@@ -44,4 +44,21 @@ Git basic commands:
 		        git mv <oldfilename> <newFilename> this will rename the file.
 		Deleting files:
 		        git rm <filename> to delete the file from the git
+		History:
+				git log to look at the pervious commits
+				git log --abbrev-commit to shorten the commit id
+				git log --oneline --graph --decorate will display the history in a different manner
+				git log --since="3 days ago" to display log date wise
+				git log --<filename> to display log for the specific file
+				git log --follow --<path of the file> log for the renamed files
+		Alias command:
+		We can set our own alias git command
+		set the alias in the git global config file
+		git log --all --graph --decorate --online to display the log history in a more readable form
+		
+		
+		
+				
+				
+		
 				
