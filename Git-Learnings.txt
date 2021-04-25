@@ -36,8 +36,10 @@ Git basic commands:
 				Again edit the same file and check the git status command..git shows both that the file needs to be commited from staging area 
 				and also the changes that need to be added to the staging area
 		Recursive adding:
-				git add . this will add all the files recirsively into the staging area 
+				git add . this will add all the files recursively into the staging area 
 		Backout Changes:
 				git reset HEAD <filename> to remove the modified file from the git staging area
 				git restore <filename> to remove the changes made in the file(revert back the file to the last commited version)
+		Rename and moving a file:
+		        git mv <oldfilename> <newFilename> this will rename the file.
 				
