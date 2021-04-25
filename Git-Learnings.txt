@@ -42,4 +42,6 @@ Git basic commands:
 				git restore <filename> to remove the changes made in the file(revert back the file to the last commited version)
 		Rename and moving a file:
 		        git mv <oldfilename> <newFilename> this will rename the file.
+		Deleting files:
+		        git rm <filename> to delete the file from the git
 				
