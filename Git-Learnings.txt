@@ -35,3 +35,6 @@ Git basic commands:
 				Edit the file in the editor and add the modified changes to the staging area
 				Again edit the same file and check the git status command..git shows both that the file needs to be commited from staging area 
 				and also the changes that need to be added to the staging area
+		Recursive adding:
+				git add . this will add all the files recirsively into the staging area 
+				
