@@ -66,8 +66,14 @@ Git basic commands:
 		git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
 		git config --global difftool.prompt false
 		
+		git diff -to see the difference between working and staged files
+		git difftool - to see the difference between working and staged files using difftool
+		git difftool HEAD -to see the differnce between working and the last commited change
+		git difftool --staged HEAD -to see the difference between staged file  and last commited change
+		git difftool --<filename> -to see the difference for the specified file(used when there are more than one file modified in the project repo	
+		git difftool <commitid> <commitid> -to see the diff brwn two commits
+		git difftool HEAD HEAD^ -to see the diff between the last commit and last commit-1
+		git difftool main origin/main -to see the diff between local master and github master
 		
-				
-				
 		
 				
