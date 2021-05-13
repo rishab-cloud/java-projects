@@ -8,3 +8,5 @@ CLOUD
 DEVOPS
 DB
 BUILDPROCESS
+
+Now testing it for GIT branch and merge
