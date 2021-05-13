@@ -82,4 +82,7 @@ Git basic commands:
 		git branch -m <oldbranchname> <newbranchname> -to rename the branch
 		git branch -d <branchname> -to delete the branch(note:branch can onlt be deleted when not in the branch)
 		
-				
+	    Happypath/fast forward Merges
+       git checkout -b <branchname> -to create a new branch and to checkout in it
+       git merge <branchname> to merge the new branch with the main/master branch
+		
