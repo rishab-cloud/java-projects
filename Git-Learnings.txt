@@ -75,5 +75,11 @@ Git basic commands:
 		git difftool HEAD HEAD^ -to see the diff between the last commit and last commit-1
 		git difftool main origin/main -to see the diff between local master and github master
 		
+		Git branching basics:
+		git branch -a -to list all the available branches
+		git branch <branchname> -to create a new branch
+		git checkout <branchname> -to switch between the branches
+		git branch -m <oldbranchname> <newbranchname> -to rename the branch
+		git branch -d <branchname> -to delete the branch(note:branch can onlt be deleted when not in the branch)
 		
 				
